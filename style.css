@@ -1,0 +1,89 @@
+body {
+   overflow: hidden;
+   background:#87CEEB ;
+}
+.box{
+   position: relative;
+
+}
+
+.basis {
+   width: 130px;
+   height: 370px;
+   background-color: black;
+   border: black solid;
+   border-radius: 20px;
+   margin: auto;
+   margin-top: 200px;
+   padding-top: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+}
+
+
+
+.red {
+   width: 100px;
+   height: 100px;
+   background-color: white;
+   border-radius: 100%;
+   border-color: rgba(128, 128, 128, 0.344);
+   animation: reds 2s;
+
+
+}
+
+.yellow {
+   width: 100px;
+   height: 100px;
+   background-color: white;
+   border-radius: 100%;
+   border-color: rgba(128, 128, 128, 0.344);
+   animation: yellows 3s;
+   animation-delay: 3s;
+}
+
+.green {
+   width: 100px;
+   height: 100px;
+   background-color: white;
+   border-radius: 100%;
+   border-color: rgba(128, 128, 128, 0.344);
+   animation: greens 3s;
+   animation-delay: 6s;
+}
+
+
+.ustun {
+   width: 30px;
+   height: 200px;
+   background-color: black;
+   margin: auto;
+}
+
+@keyframes reds {
+   to {
+      background-color: red;
+      top: 3.5px;
+   }
+
+}
+
+@keyframes yellows {
+   to {
+      background-color: yellow;
+      top: 103.5px;
+   }
+
+}
+
+@keyframes greens {
+   to {
+      background-color: green;
+      top: 207px;
+   }
+
+}
